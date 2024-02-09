@@ -1,0 +1,96 @@
+/* exercice 1 */
+ h1{ 
+    text-align: center;
+    color: red;
+    text-shadow: 10px,10px,10px red;
+}
+h2{
+    text-decoration: underline;
+   
+}
+section h2{
+    color: green;
+}
+article>p{
+    color: blue;
+    font-style: italic;
+}
+
+
+/* exercice 2 */
+.div{
+    width: 300px;
+    height: 300px;
+    background-color:blue;
+    animation-name: tran;
+    animation-duration: 2px;
+
+}
+@keyframes tran{
+    50%{
+        transform: translate (100px,100px);
+        transform: rotate(40deg);
+    }
+}
+@media screen and ( max-width:1000px){
+    .div{
+        background-color: green;
+    }    
+}
+@media screen and (max-width:700px){
+    .div{
+        background-color: red;
+    }    
+}  
+.menu{
+    display: flex;
+    background-color: black;
+
+    justify-content: space-between;
+    align-items: center;
+}
+.men{
+    display: flex;
+    justify-content: space-evenly;
+    width:30vw ;
+    min-height: 40px;
+    align-items: center;
+ 
+}
+.about{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+#boite{
+    background-color:red;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    animation-name: redbox;
+    animation-duration:2s;
+    animation-iteration-count: 10;
+}
+@keyframes redbox{
+    0%{
+        left: 10px;
+    }
+    50%{
+        left: 400px;
+    }
+    100%{
+        left: 10px;
+    }
+}
+
+
+
+
+
+
+
+

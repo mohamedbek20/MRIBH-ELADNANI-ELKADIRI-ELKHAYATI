@@ -1,0 +1,127 @@
+/* EXERCICE 1 */
+h1{
+    text-align: center;
+    color: red;
+
+}
+h2{
+    text-decoration-line: underline;
+}
+section p {
+    color: green;
+}
+h1:first-child {
+    text-shadow:3px 3px 10px red;
+}
+/* EXERCICE2 */
+div{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+.container:hover {
+    transform: translateX(100px);
+    transform: translateY(100px);
+    transform: rotate(40deg);
+}
+@media screen and (max-width:1000px) {
+    .container{
+        background-color: green;
+
+    }
+    
+}
+@media screen and (max-width:700px) {
+    .container{
+        background-color: red;
+        
+    }
+    
+}
+/* EXERCICE 3 */
+header{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+   
+}
+header a {
+   color: black;
+   font-size: 20px;
+   text-decoration-line: none;
+
+
+}
+header a:hover{
+    text-decoration-line: underline;
+    color: brown;
+}
+header .logo{
+    align-self: center;
+    padding: 20px;
+    text-align: center;
+    background-color: aqua;
+}
+header .logo:hover{
+    font-size: large;
+    background-color: yellow;
+
+}
+
+
+
+/* EXERCICE 4 */
+.parent{
+    width: 700px;
+    height: 700px;
+    background-color: black;
+    position: relative;
+}
+.parent .item1{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(89, 42, 165);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.parent .item2{
+    width: 50px;
+    height: 50px;
+    background-color:yellow;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.parent .item3{
+    width: 50px;
+    height: 50px;
+    background-color:palevioletred;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.parent .item4{
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.parent .item5{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+/* EXERCICE 5 */
+
